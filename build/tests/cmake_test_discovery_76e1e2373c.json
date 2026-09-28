@@ -1,0 +1,78 @@
+{
+  "tests": 12,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "RegisterTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "initalValueEqReset",
+          "file": "\/home\/ruifag\/6502\/tests\/registerTest.cpp",
+          "line": 20
+        }
+      ]
+    },
+    {
+      "name": "CpuFixture",
+      "tests": 11,
+      "testsuite": [
+        {
+          "name": "LdaImmediateFF_SameAsBefore",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 35
+        },
+        {
+          "name": "LdaImmediateZero_SetsZeroFlag",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 61
+        },
+        {
+          "name": "LdaImmediate80_PreservesOldNegativeBug",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 72
+        },
+        {
+          "name": "ImpliedClc_DecodeDoesNotAdvancePc",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 83
+        },
+        {
+          "name": "ImpliedSeiCli",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 97
+        },
+        {
+          "name": "NopIsSingleByte",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 109
+        },
+        {
+          "name": "DecodeResolvesHandler",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 116
+        },
+        {
+          "name": "DecodeZeroPage_EffectiveAddress",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 127
+        },
+        {
+          "name": "DecodeAbsoluteX_AddsX",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 140
+        },
+        {
+          "name": "DecodeRelative_ComputesTarget",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 154
+        },
+        {
+          "name": "DecodeIndirectX_WrapsZeroPage",
+          "file": "\/home\/ruifag\/6502\/tests\/decodeTest.cpp",
+          "line": 164
+        }
+      ]
+    }
+  ]
+}

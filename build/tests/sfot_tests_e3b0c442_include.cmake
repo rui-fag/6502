@@ -1,0 +1,5 @@
+if(EXISTS "/home/ruifag/6502/build/tests/sfot_tests_e3b0c442_tests.cmake")
+  include("/home/ruifag/6502/build/tests/sfot_tests_e3b0c442_tests.cmake")
+else()
+  add_test(sfot-tests_NOT_BUILT sfot-tests_NOT_BUILT)
+endif()
