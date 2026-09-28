@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsfot_lib.a CMakeFiles/sfot_lib.dir/src/fsm.cpp.o CMakeFiles/sfot_lib.dir/src/memory.cpp.o CMakeFiles/sfot_lib.dir/src/opcodes.cpp.o CMakeFiles/sfot_lib.dir/src/sfot.cpp.o CMakeFiles/sfot_lib.dir/src/loader.cpp.o
-/usr/bin/ranlib libsfot_lib.a
